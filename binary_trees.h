@@ -34,10 +34,10 @@ typedef struct binary_tree_s heap_t;
  * @next: Next node to traverse
  */
 
-typedef struct traversal_queue
+typedef struct traversal_queue_s
 {
   binary_tree_t *node;
-  struct traversal_queue *next;
+  struct traversal_queue_s *next;
 } traversal_queue_t;
 
 /* End Projects data structures */
