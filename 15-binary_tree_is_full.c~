@@ -1,0 +1,6 @@
+#include "binary_trees.h"
+
+/**
+ * is_full_recursive - Checks if bt is full recursively
+ * @tree: Pointer to root node
+ * T
